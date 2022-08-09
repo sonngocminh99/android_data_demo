@@ -1,5 +1,7 @@
 package ncmbdataquick.mbaas.com.nifcloud.datastorequickstart;
 
+
+
 import androidx.test.espresso.ViewInteraction;
 import androidx.test.ext.junit.rules.ActivityScenarioRule;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
