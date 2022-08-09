@@ -16,7 +16,8 @@ import com.nifcloud.mbaas.core.NCMBObject;
 
 
 public class MainActivity extends AppCompatActivity {
-
+    public static String APP_KEY = "2bfb444423219ff54256bbe41ff270c5d8c3e81eaa3121c18603363e99b0b673";
+    public static String CLIENT_KEY = "2e0167555ae06b73a73a8b2ef1ea9614d566b17cb7c0d191da80797221088bf2";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         //**************** APIキーの設定とSDKの初期化 **********************
-        NCMB.initialize(this.getApplicationContext(), "YOUR_APPLICATION_KEY", "YOUR_CLIENT_KEY");
+        NCMB.initialize(this.getApplicationContext(), APP_KEY, CLIENT_KEY);
     }
 
     @Override
